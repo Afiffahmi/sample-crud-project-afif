@@ -26,6 +26,7 @@
         <category android:name="android.intent.category.BROWSABLE"/>
         <data android:scheme="myapp"/>
         <data android:scheme="com.anonymous.samplecrudprojectafif"/>
+        <data android:scheme="exp+sample-crud-project-afif"/>
       </intent-filter>
     </activity>
   </application>
