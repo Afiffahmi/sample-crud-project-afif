@@ -22,27 +22,27 @@ export default function TabLayout() {
       <Tabs.Screen
         name="home"
         options={{
-          title: 'Home',
+          title: 'Reviews',
           tabBarIcon: ({ color, size }) => (
-            <Ionicons name="home" color={color} size={size} />
+            <Ionicons name="star" color={color} size={size} />
           ),
         }}
       />
       <Tabs.Screen
-        name="profile"
+        name="addReview"
         options={{
-          title: 'Profile',
+          title: 'Add Review',
           tabBarIcon: ({ color, size }) => (
-            <Ionicons name="person" color={color} size={size} />
+            <Ionicons name="add" color={color} size={size} />
           ),
         }}
       />
       <Tabs.Screen
-        name="setting"
+        name="about"
         options={{
-          title: 'Settings',
+          title: 'About',
           tabBarIcon: ({ color, size }) => (
-            <Ionicons name="settings" color={color} size={size} />
+            <Ionicons name="cloud" color={color} size={size} />
           ),
         }}
       />

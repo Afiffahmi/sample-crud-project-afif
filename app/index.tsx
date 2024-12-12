@@ -21,7 +21,7 @@ export default function Index() {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Welcome to Your App</Text>
+      <Text style={styles.title}>Welcome to Review App</Text>
       <Text style={styles.subtitle}>Redirecting to Home...</Text>
     </View>
   );
