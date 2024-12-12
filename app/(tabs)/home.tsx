@@ -1,23 +1,17 @@
 import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import { Text } from '@/components/ui/text';
+import { Box } from '@/components/ui/box';
+import { Card } from '@/components/ui/card';
 
 export default function HomeScreen() {
   return (
-    <View style={styles.container}>
-      <Text style={styles.title}>Home Screen</Text>
-    </View>
+    <Box className='flex-1  bg-white'>
+      <Text className='text-center'>My Review</Text>
+      <Box className='justify-center items-center'>
+      <Card className='w-80 h-40 mt-4 p-4'>
+        <Text className='text-center border-slate-400 border rounded-lg'>This is a review card</Text>
+      </Card>
+      </Box>
+    </Box>
   );
 }
-
-const styles = StyleSheet.create({
-    container: {
-      flex: 1,
-      justifyContent: 'center',
-      alignItems: 'center',
-      backgroundColor: '#f4f4f4',
-    },
-    title: {
-      fontSize: 24,
-      fontWeight: 'bold',
-    },
-  });
